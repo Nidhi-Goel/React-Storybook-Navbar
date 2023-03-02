@@ -1,0 +1,93 @@
+.navbar .flex h1 {
+    font-weight: 900;
+    color: red;
+    text-align: center;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+}
+
+ul img {
+    max-height: 25vh;
+}
+
+
+/* li {
+    list-style-type: none;
+    width: 20%;
+    float: left;
+} */
+
+li {
+    list-style-type: none;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+
+
+/* li a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+} */
+
+li a {
+    color: #666;
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+}
+
+li a:hover:not(.active) {
+    background-color: #ddd;
+}
+
+li a.active {
+    /* color: white;
+    background-color: #04AA6D; */
+    color: #666;
+}
+
+.primary {
+    background-color: #008CBA;
+}
+
+.secondary {
+    background-color: #e7e7e7;
+    color: #000000;
+}
+
+.success {
+    background-color: #f3f3f3;
+}
+
+.danger {
+    background-color: #f44336
+}
+
+
+/* @media screen and (max-width:600px) {
+    ul img {
+        max-height: 7vh;
+    }
+}
+
+@media screen and (min-width:1500px) {
+    ul img {
+        max-height: 15vh;
+    }
+} */
